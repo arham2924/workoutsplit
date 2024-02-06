@@ -1,0 +1,96 @@
+/* Example CSS styles (customize as needed) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00d0ff;
+    margin: 0;
+    padding: 0;
+}
+/* Center the header */
+header {
+    text-align: center;
+    background-color: #00d0ff;
+    color: #000000;
+    padding: 1rem;
+    position: relative; /* Use relative positioning for the images */
+ }
+ 
+ /* Style for the left image */
+ .left-image {
+    max-width: 100px; /* Adjust the width as needed to make it smaller */
+    position: absolute; /* Position the image absolutely */
+    left: 20px; /* Adjust the left position as needed */
+    top: 50%; /* Vertically center the image */
+    transform: translateY(-50%); /* Vertically center the image */
+ }
+ 
+ /* Style for the right image */
+ .right-image {
+    max-width: 100px; /* Adjust the width as needed to make it smaller */
+    position: absolute; /* Position the image absolutely */
+    right: 20px; /* Adjust the right position as needed */
+    top: 50%; /* Vertically center the image */
+    transform: translateY(-50%); /* Vertically center the image */
+ }
+
+
+ /* Center the main content */
+ main {
+    text-align: center;
+ }
+ 
+ /* Style for each muscle group section */
+/* Style for each muscle group section */
+.muscle-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the section content */
+    margin: 0 auto;   /* Center the section horizontally */
+    max-width: 800px; /* Set a maximum width for the content */
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #00d0ff;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ /* Style for exercise lists (unordered lists) */
+ .exercise-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+    text-align: left; /* Align list items to the left */
+ }
+ 
+ /* Style for list items (exercises) */
+ .exercise-list li {
+    margin: 5px 0;
+ }
+ /* Style for the contact section */
+.contact-section {
+    text-align: center;
+    background-color: #00d0ff;
+    color: #000000;
+    padding: 20px;
+ }
+ 
+ /* Style for the email link */
+ .contact-section a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+ }
+ 
+ 
+ /* Center the footer */
+ footer {
+    text-align: center;
+    background-color: #00d0ff;
+    color: #000000;
+    padding: 0.5rem;
+ }
+ 
